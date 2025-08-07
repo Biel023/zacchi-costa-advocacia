@@ -287,6 +287,15 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    align-items: center;
+}
+
+.hero-buttons .btn-secondary {
+    transform: translateY(-8px);
+}
+
+.hero-buttons .btn-secondary:hover {
+    transform: translateY(-10px);
 }
 
 .firm-card {
